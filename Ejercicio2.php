@@ -1,5 +1,6 @@
 <?php
-
+echo 'EJERCICIO 2 <br />';
+echo '<br />';
 $a = 15;
 $b = 8;
 if ($a > $b) {
@@ -7,6 +8,7 @@ if ($a > $b) {
 }else{ 
      $menor = 'a = '.$a;
 }
-echo 'Se eligio los numeros $a=15 y $b=8. <br />';
+echo 'Se eligio los numeros [ $a=15 ] y [ $b=8 ] <br />';
+echo ' <br /> ';
 echo 'Se Calculo que El Numero menor seria la: ' . $menor .'<br />';
 ?>
